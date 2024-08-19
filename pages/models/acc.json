@@ -1,0 +1,1022 @@
+{
+     "['Pregnancies']": {
+          "best_model": "knn",
+          "accuracy": 0.6363636363636364
+     },
+     "['Glucose']": {
+          "best_model": "ANN",
+          "accuracy": 0.7402597402597403
+     },
+     "['BloodPressure']": {
+          "best_model": "nb",
+          "accuracy": 0.5714285714285714
+     },
+     "['SkinThickness']": {
+          "best_model": "knn",
+          "accuracy": 0.577922077922078
+     },
+     "['Insulin']": {
+          "best_model": "rf",
+          "accuracy": 0.5909090909090909
+     },
+     "['BMI']": {
+          "best_model": "lr",
+          "accuracy": 0.6038961038961039
+     },
+     "['DiabetesPedigreeFunction']": {
+          "best_model": "nb",
+          "accuracy": 0.5714285714285714
+     },
+     "['Age']": {
+          "best_model": "lgbm",
+          "accuracy": 0.6233766233766234
+     },
+     "['Pregnancies', 'Glucose']": {
+          "best_model": "lr",
+          "accuracy": 0.7792207792207793
+     },
+     "['Pregnancies', 'BloodPressure']": {
+          "best_model": "cb",
+          "accuracy": 0.5844155844155844
+     },
+     "['Pregnancies', 'SkinThickness']": {
+          "best_model": "nb",
+          "accuracy": 0.6038961038961039
+     },
+     "['Pregnancies', 'Insulin']": {
+          "best_model": "xgb",
+          "accuracy": 0.6363636363636364
+     },
+     "['Pregnancies', 'BMI']": {
+          "best_model": "knn",
+          "accuracy": 0.6883116883116883
+     },
+     "['Pregnancies', 'DiabetesPedigreeFunction']": {
+          "best_model": "ANN",
+          "accuracy": 0.6103896103896104
+     },
+     "['Pregnancies', 'Age']": {
+          "best_model": "nb",
+          "accuracy": 0.6558441558441559
+     },
+     "['Glucose', 'BloodPressure']": {
+          "best_model": "ensemble",
+          "accuracy": 0.7792207792207793
+     },
+     "['Glucose', 'SkinThickness']": {
+          "best_model": "ANN",
+          "accuracy": 0.7727272727272727
+     },
+     "['Glucose', 'Insulin']": {
+          "best_model": "knn",
+          "accuracy": 0.7597402597402597
+     },
+     "['Glucose', 'BMI']": {
+          "best_model": "ANN",
+          "accuracy": 0.7662337662337663
+     },
+     "['Glucose', 'DiabetesPedigreeFunction']": {
+          "best_model": "ANN",
+          "accuracy": 0.7727272727272727
+     },
+     "['Glucose', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.7662337662337663
+     },
+     "['BloodPressure', 'SkinThickness']": {
+          "best_model": "rf",
+          "accuracy": 0.5844155844155844
+     },
+     "['BloodPressure', 'Insulin']": {
+          "best_model": "ANN",
+          "accuracy": 0.5909090909090909
+     },
+     "['BloodPressure', 'BMI']": {
+          "best_model": "nb",
+          "accuracy": 0.6298701298701299
+     },
+     "['BloodPressure', 'DiabetesPedigreeFunction']": {
+          "best_model": "nb",
+          "accuracy": 0.5909090909090909
+     },
+     "['BloodPressure', 'Age']": {
+          "best_model": "cb",
+          "accuracy": 0.6038961038961039
+     },
+     "['SkinThickness', 'Insulin']": {
+          "best_model": "cb",
+          "accuracy": 0.6168831168831169
+     },
+     "['SkinThickness', 'BMI']": {
+          "best_model": "lr",
+          "accuracy": 0.6038961038961039
+     },
+     "['SkinThickness', 'DiabetesPedigreeFunction']": {
+          "best_model": "ANN",
+          "accuracy": 0.577922077922078
+     },
+     "['SkinThickness', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.6103896103896104
+     },
+     "['Insulin', 'BMI']": {
+          "best_model": "lr",
+          "accuracy": 0.6298701298701299
+     },
+     "['Insulin', 'DiabetesPedigreeFunction']": {
+          "best_model": "knn",
+          "accuracy": 0.5909090909090909
+     },
+     "['Insulin', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.6233766233766234
+     },
+     "['BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "ANN",
+          "accuracy": 0.6818181818181818
+     },
+     "['BMI', 'Age']": {
+          "best_model": "knn",
+          "accuracy": 0.6428571428571429
+     },
+     "['DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.6168831168831169
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure']": {
+          "best_model": "lr",
+          "accuracy": 0.7792207792207793
+     },
+     "['Pregnancies', 'Glucose', 'SkinThickness']": {
+          "best_model": "lgbm",
+          "accuracy": 0.7727272727272727
+     },
+     "['Pregnancies', 'Glucose', 'Insulin']": {
+          "best_model": "cb",
+          "accuracy": 0.7987012987012987
+     },
+     "['Pregnancies', 'Glucose', 'BMI']": {
+          "best_model": "ensemble",
+          "accuracy": 0.7727272727272727
+     },
+     "['Pregnancies', 'Glucose', 'DiabetesPedigreeFunction']": {
+          "best_model": "ensemble",
+          "accuracy": 0.7792207792207793
+     },
+     "['Pregnancies', 'Glucose', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.7662337662337663
+     },
+     "['Pregnancies', 'BloodPressure', 'SkinThickness']": {
+          "best_model": "knn",
+          "accuracy": 0.6428571428571429
+     },
+     "['Pregnancies', 'BloodPressure', 'Insulin']": {
+          "best_model": "lgbm",
+          "accuracy": 0.6298701298701299
+     },
+     "['Pregnancies', 'BloodPressure', 'BMI']": {
+          "best_model": "xgb",
+          "accuracy": 0.6623376623376623
+     },
+     "['Pregnancies', 'BloodPressure', 'DiabetesPedigreeFunction']": {
+          "best_model": "ANN",
+          "accuracy": 0.6363636363636364
+     },
+     "['Pregnancies', 'BloodPressure', 'Age']": {
+          "best_model": "nb",
+          "accuracy": 0.6298701298701299
+     },
+     "['Pregnancies', 'SkinThickness', 'Insulin']": {
+          "best_model": "lgbm",
+          "accuracy": 0.6038961038961039
+     },
+     "['Pregnancies', 'SkinThickness', 'BMI']": {
+          "best_model": "cb",
+          "accuracy": 0.6883116883116883
+     },
+     "['Pregnancies', 'SkinThickness', 'DiabetesPedigreeFunction']": {
+          "best_model": "nb",
+          "accuracy": 0.6103896103896104
+     },
+     "['Pregnancies', 'SkinThickness', 'Age']": {
+          "best_model": "nb",
+          "accuracy": 0.6363636363636364
+     },
+     "['Pregnancies', 'Insulin', 'BMI']": {
+          "best_model": "ensemble",
+          "accuracy": 0.6688311688311688
+     },
+     "['Pregnancies', 'Insulin', 'DiabetesPedigreeFunction']": {
+          "best_model": "lr",
+          "accuracy": 0.6428571428571429
+     },
+     "['Pregnancies', 'Insulin', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.6168831168831169
+     },
+     "['Pregnancies', 'BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "ANN",
+          "accuracy": 0.6883116883116883
+     },
+     "['Pregnancies', 'BMI', 'Age']": {
+          "best_model": "cb",
+          "accuracy": 0.6558441558441559
+     },
+     "['Pregnancies', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "nb",
+          "accuracy": 0.6363636363636364
+     },
+     "['Glucose', 'BloodPressure', 'SkinThickness']": {
+          "best_model": "nb",
+          "accuracy": 0.7727272727272727
+     },
+     "['Glucose', 'BloodPressure', 'Insulin']": {
+          "best_model": "ANN",
+          "accuracy": 0.7662337662337663
+     },
+     "['Glucose', 'BloodPressure', 'BMI']": {
+          "best_model": "nb",
+          "accuracy": 0.7727272727272727
+     },
+     "['Glucose', 'BloodPressure', 'DiabetesPedigreeFunction']": {
+          "best_model": "ANN",
+          "accuracy": 0.7792207792207793
+     },
+     "['Glucose', 'BloodPressure', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.7662337662337663
+     },
+     "['Glucose', 'SkinThickness', 'Insulin']": {
+          "best_model": "ANN",
+          "accuracy": 0.7532467532467533
+     },
+     "['Glucose', 'SkinThickness', 'BMI']": {
+          "best_model": "ANN",
+          "accuracy": 0.7922077922077922
+     },
+     "['Glucose', 'SkinThickness', 'DiabetesPedigreeFunction']": {
+          "best_model": "ANN",
+          "accuracy": 0.7532467532467533
+     },
+     "['Glucose', 'SkinThickness', 'Age']": {
+          "best_model": "nb",
+          "accuracy": 0.7597402597402597
+     },
+     "['Glucose', 'Insulin', 'BMI']": {
+          "best_model": "ensemble",
+          "accuracy": 0.7597402597402597
+     },
+     "['Glucose', 'Insulin', 'DiabetesPedigreeFunction']": {
+          "best_model": "lr",
+          "accuracy": 0.7727272727272727
+     },
+     "['Glucose', 'Insulin', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.7662337662337663
+     },
+     "['Glucose', 'BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "lr",
+          "accuracy": 0.7727272727272727
+     },
+     "['Glucose', 'BMI', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.7922077922077922
+     },
+     "['Glucose', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "nb",
+          "accuracy": 0.7792207792207793
+     },
+     "['BloodPressure', 'SkinThickness', 'Insulin']": {
+          "best_model": "ensemble",
+          "accuracy": 0.5909090909090909
+     },
+     "['BloodPressure', 'SkinThickness', 'BMI']": {
+          "best_model": "nb",
+          "accuracy": 0.6363636363636364
+     },
+     "['BloodPressure', 'SkinThickness', 'DiabetesPedigreeFunction']": {
+          "best_model": "lgbm",
+          "accuracy": 0.6038961038961039
+     },
+     "['BloodPressure', 'SkinThickness', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.6103896103896104
+     },
+     "['BloodPressure', 'Insulin', 'BMI']": {
+          "best_model": "lr",
+          "accuracy": 0.6298701298701299
+     },
+     "['BloodPressure', 'Insulin', 'DiabetesPedigreeFunction']": {
+          "best_model": "nb",
+          "accuracy": 0.6038961038961039
+     },
+     "['BloodPressure', 'Insulin', 'Age']": {
+          "best_model": "knn",
+          "accuracy": 0.6428571428571429
+     },
+     "['BloodPressure', 'BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "ANN",
+          "accuracy": 0.6558441558441559
+     },
+     "['BloodPressure', 'BMI', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.6558441558441559
+     },
+     "['BloodPressure', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.6233766233766234
+     },
+     "['SkinThickness', 'Insulin', 'BMI']": {
+          "best_model": "lr",
+          "accuracy": 0.6168831168831169
+     },
+     "['SkinThickness', 'Insulin', 'DiabetesPedigreeFunction']": {
+          "best_model": "lgbm",
+          "accuracy": 0.6103896103896104
+     },
+     "['SkinThickness', 'Insulin', 'Age']": {
+          "best_model": "ensemble",
+          "accuracy": 0.6168831168831169
+     },
+     "['SkinThickness', 'BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "lgbm",
+          "accuracy": 0.6493506493506493
+     },
+     "['SkinThickness', 'BMI', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.6363636363636364
+     },
+     "['SkinThickness', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.6233766233766234
+     },
+     "['Insulin', 'BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "xgb",
+          "accuracy": 0.6688311688311688
+     },
+     "['Insulin', 'BMI', 'Age']": {
+          "best_model": "ensemble",
+          "accuracy": 0.6623376623376623
+     },
+     "['Insulin', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.6493506493506493
+     },
+     "['BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.6948051948051948
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness']": {
+          "best_model": "rf",
+          "accuracy": 0.7792207792207793
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure', 'Insulin']": {
+          "best_model": "ensemble",
+          "accuracy": 0.7857142857142857
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure', 'BMI']": {
+          "best_model": "lr",
+          "accuracy": 0.7987012987012987
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure', 'DiabetesPedigreeFunction']": {
+          "best_model": "ANN",
+          "accuracy": 0.7987012987012987
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure', 'Age']": {
+          "best_model": "rf",
+          "accuracy": 0.7792207792207793
+     },
+     "['Pregnancies', 'Glucose', 'SkinThickness', 'Insulin']": {
+          "best_model": "cb",
+          "accuracy": 0.7597402597402597
+     },
+     "['Pregnancies', 'Glucose', 'SkinThickness', 'BMI']": {
+          "best_model": "ensemble",
+          "accuracy": 0.8051948051948052
+     },
+     "['Pregnancies', 'Glucose', 'SkinThickness', 'DiabetesPedigreeFunction']": {
+          "best_model": "rf",
+          "accuracy": 0.7792207792207793
+     },
+     "['Pregnancies', 'Glucose', 'SkinThickness', 'Age']": {
+          "best_model": "nb",
+          "accuracy": 0.7597402597402597
+     },
+     "['Pregnancies', 'Glucose', 'Insulin', 'BMI']": {
+          "best_model": "ensemble",
+          "accuracy": 0.7987012987012987
+     },
+     "['Pregnancies', 'Glucose', 'Insulin', 'DiabetesPedigreeFunction']": {
+          "best_model": "lr",
+          "accuracy": 0.7792207792207793
+     },
+     "['Pregnancies', 'Glucose', 'Insulin', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.7662337662337663
+     },
+     "['Pregnancies', 'Glucose', 'BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "rf",
+          "accuracy": 0.7857142857142857
+     },
+     "['Pregnancies', 'Glucose', 'BMI', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.7922077922077922
+     },
+     "['Pregnancies', 'Glucose', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.7857142857142857
+     },
+     "['Pregnancies', 'BloodPressure', 'SkinThickness', 'Insulin']": {
+          "best_model": "ensemble",
+          "accuracy": 0.6233766233766234
+     },
+     "['Pregnancies', 'BloodPressure', 'SkinThickness', 'BMI']": {
+          "best_model": "cb",
+          "accuracy": 0.6493506493506493
+     },
+     "['Pregnancies', 'BloodPressure', 'SkinThickness', 'DiabetesPedigreeFunction']": {
+          "best_model": "ANN",
+          "accuracy": 0.6233766233766234
+     },
+     "['Pregnancies', 'BloodPressure', 'SkinThickness', 'Age']": {
+          "best_model": "nb",
+          "accuracy": 0.6168831168831169
+     },
+     "['Pregnancies', 'BloodPressure', 'Insulin', 'BMI']": {
+          "best_model": "nb",
+          "accuracy": 0.6428571428571429
+     },
+     "['Pregnancies', 'BloodPressure', 'Insulin', 'DiabetesPedigreeFunction']": {
+          "best_model": "ensemble",
+          "accuracy": 0.6363636363636364
+     },
+     "['Pregnancies', 'BloodPressure', 'Insulin', 'Age']": {
+          "best_model": "knn",
+          "accuracy": 0.6558441558441559
+     },
+     "['Pregnancies', 'BloodPressure', 'BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "ANN",
+          "accuracy": 0.6883116883116883
+     },
+     "['Pregnancies', 'BloodPressure', 'BMI', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.6753246753246753
+     },
+     "['Pregnancies', 'BloodPressure', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "nb",
+          "accuracy": 0.6363636363636364
+     },
+     "['Pregnancies', 'SkinThickness', 'Insulin', 'BMI']": {
+          "best_model": "cb",
+          "accuracy": 0.6623376623376623
+     },
+     "['Pregnancies', 'SkinThickness', 'Insulin', 'DiabetesPedigreeFunction']": {
+          "best_model": "lr",
+          "accuracy": 0.6233766233766234
+     },
+     "['Pregnancies', 'SkinThickness', 'Insulin', 'Age']": {
+          "best_model": "knn",
+          "accuracy": 0.6233766233766234
+     },
+     "['Pregnancies', 'SkinThickness', 'BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "lr",
+          "accuracy": 0.6558441558441559
+     },
+     "['Pregnancies', 'SkinThickness', 'BMI', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.6493506493506493
+     },
+     "['Pregnancies', 'SkinThickness', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.6103896103896104
+     },
+     "['Pregnancies', 'Insulin', 'BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "ANN",
+          "accuracy": 0.6688311688311688
+     },
+     "['Pregnancies', 'Insulin', 'BMI', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.6818181818181818
+     },
+     "['Pregnancies', 'Insulin', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.6428571428571429
+     },
+     "['Pregnancies', 'BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "knn",
+          "accuracy": 0.6818181818181818
+     },
+     "['Glucose', 'BloodPressure', 'SkinThickness', 'Insulin']": {
+          "best_model": "ANN",
+          "accuracy": 0.7857142857142857
+     },
+     "['Glucose', 'BloodPressure', 'SkinThickness', 'BMI']": {
+          "best_model": "nb",
+          "accuracy": 0.7727272727272727
+     },
+     "['Glucose', 'BloodPressure', 'SkinThickness', 'DiabetesPedigreeFunction']": {
+          "best_model": "ANN",
+          "accuracy": 0.7597402597402597
+     },
+     "['Glucose', 'BloodPressure', 'SkinThickness', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.7857142857142857
+     },
+     "['Glucose', 'BloodPressure', 'Insulin', 'BMI']": {
+          "best_model": "ensemble",
+          "accuracy": 0.7727272727272727
+     },
+     "['Glucose', 'BloodPressure', 'Insulin', 'DiabetesPedigreeFunction']": {
+          "best_model": "ANN",
+          "accuracy": 0.7987012987012987
+     },
+     "['Glucose', 'BloodPressure', 'Insulin', 'Age']": {
+          "best_model": "nb",
+          "accuracy": 0.7727272727272727
+     },
+     "['Glucose', 'BloodPressure', 'BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "ANN",
+          "accuracy": 0.7727272727272727
+     },
+     "['Glucose', 'BloodPressure', 'BMI', 'Age']": {
+          "best_model": "nb",
+          "accuracy": 0.7987012987012987
+     },
+     "['Glucose', 'BloodPressure', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "nb",
+          "accuracy": 0.7922077922077922
+     },
+     "['Glucose', 'SkinThickness', 'Insulin', 'BMI']": {
+          "best_model": "ANN",
+          "accuracy": 0.7727272727272727
+     },
+     "['Glucose', 'SkinThickness', 'Insulin', 'DiabetesPedigreeFunction']": {
+          "best_model": "ANN",
+          "accuracy": 0.7532467532467533
+     },
+     "['Glucose', 'SkinThickness', 'Insulin', 'Age']": {
+          "best_model": "nb",
+          "accuracy": 0.7727272727272727
+     },
+     "['Glucose', 'SkinThickness', 'BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "lr",
+          "accuracy": 0.7792207792207793
+     },
+     "['Glucose', 'SkinThickness', 'BMI', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.7987012987012987
+     },
+     "['Glucose', 'SkinThickness', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "nb",
+          "accuracy": 0.7857142857142857
+     },
+     "['Glucose', 'Insulin', 'BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "lr",
+          "accuracy": 0.7792207792207793
+     },
+     "['Glucose', 'Insulin', 'BMI', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.7857142857142857
+     },
+     "['Glucose', 'Insulin', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.7727272727272727
+     },
+     "['Glucose', 'BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.8051948051948052
+     },
+     "['BloodPressure', 'SkinThickness', 'Insulin', 'BMI']": {
+          "best_model": "lr",
+          "accuracy": 0.6168831168831169
+     },
+     "['BloodPressure', 'SkinThickness', 'Insulin', 'DiabetesPedigreeFunction']": {
+          "best_model": "knn",
+          "accuracy": 0.6103896103896104
+     },
+     "['BloodPressure', 'SkinThickness', 'Insulin', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.6168831168831169
+     },
+     "['BloodPressure', 'SkinThickness', 'BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "nb",
+          "accuracy": 0.6298701298701299
+     },
+     "['BloodPressure', 'SkinThickness', 'BMI', 'Age']": {
+          "best_model": "knn",
+          "accuracy": 0.6493506493506493
+     },
+     "['BloodPressure', 'SkinThickness', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.6363636363636364
+     },
+     "['BloodPressure', 'Insulin', 'BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "ANN",
+          "accuracy": 0.6428571428571429
+     },
+     "['BloodPressure', 'Insulin', 'BMI', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.6623376623376623
+     },
+     "['BloodPressure', 'Insulin', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.6233766233766234
+     },
+     "['BloodPressure', 'BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "ensemble",
+          "accuracy": 0.6883116883116883
+     },
+     "['SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "cb",
+          "accuracy": 0.6363636363636364
+     },
+     "['SkinThickness', 'Insulin', 'BMI', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.6558441558441559
+     },
+     "['SkinThickness', 'Insulin', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.6298701298701299
+     },
+     "['SkinThickness', 'BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.6558441558441559
+     },
+     "['Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.7012987012987013
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'Insulin']": {
+          "best_model": "rf",
+          "accuracy": 0.7857142857142857
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'BMI']": {
+          "best_model": "lr",
+          "accuracy": 0.7987012987012987
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'DiabetesPedigreeFunction']": {
+          "best_model": "lgbm",
+          "accuracy": 0.7792207792207793
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.7792207792207793
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure', 'Insulin', 'BMI']": {
+          "best_model": "lr",
+          "accuracy": 0.7987012987012987
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure', 'Insulin', 'DiabetesPedigreeFunction']": {
+          "best_model": "ANN",
+          "accuracy": 0.7857142857142857
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure', 'Insulin', 'Age']": {
+          "best_model": "ensemble",
+          "accuracy": 0.7727272727272727
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure', 'BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "lr",
+          "accuracy": 0.7792207792207793
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure', 'BMI', 'Age']": {
+          "best_model": "nb",
+          "accuracy": 0.8051948051948052
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.7792207792207793
+     },
+     "['Pregnancies', 'Glucose', 'SkinThickness', 'Insulin', 'BMI']": {
+          "best_model": "ANN",
+          "accuracy": 0.8051948051948052
+     },
+     "['Pregnancies', 'Glucose', 'SkinThickness', 'Insulin', 'DiabetesPedigreeFunction']": {
+          "best_model": "rf",
+          "accuracy": 0.7857142857142857
+     },
+     "['Pregnancies', 'Glucose', 'SkinThickness', 'Insulin', 'Age']": {
+          "best_model": "cb",
+          "accuracy": 0.7727272727272727
+     },
+     "['Pregnancies', 'Glucose', 'SkinThickness', 'BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "xgb",
+          "accuracy": 0.8116883116883117
+     },
+     "['Pregnancies', 'Glucose', 'SkinThickness', 'BMI', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.7922077922077922
+     },
+     "['Pregnancies', 'Glucose', 'SkinThickness', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.7727272727272727
+     },
+     "['Pregnancies', 'Glucose', 'Insulin', 'BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "ANN",
+          "accuracy": 0.7727272727272727
+     },
+     "['Pregnancies', 'Glucose', 'Insulin', 'BMI', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.7922077922077922
+     },
+     "['Pregnancies', 'Glucose', 'Insulin', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.7857142857142857
+     },
+     "['Pregnancies', 'Glucose', 'BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "cb",
+          "accuracy": 0.7987012987012987
+     },
+     "['Pregnancies', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI']": {
+          "best_model": "ensemble",
+          "accuracy": 0.6558441558441559
+     },
+     "['Pregnancies', 'BloodPressure', 'SkinThickness', 'Insulin', 'DiabetesPedigreeFunction']": {
+          "best_model": "knn",
+          "accuracy": 0.6363636363636364
+     },
+     "['Pregnancies', 'BloodPressure', 'SkinThickness', 'Insulin', 'Age']": {
+          "best_model": "knn",
+          "accuracy": 0.6298701298701299
+     },
+     "['Pregnancies', 'BloodPressure', 'SkinThickness', 'BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "ANN",
+          "accuracy": 0.6558441558441559
+     },
+     "['Pregnancies', 'BloodPressure', 'SkinThickness', 'BMI', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.6493506493506493
+     },
+     "['Pregnancies', 'BloodPressure', 'SkinThickness', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.6298701298701299
+     },
+     "['Pregnancies', 'BloodPressure', 'Insulin', 'BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "ANN",
+          "accuracy": 0.7077922077922078
+     },
+     "['Pregnancies', 'BloodPressure', 'Insulin', 'BMI', 'Age']": {
+          "best_model": "knn",
+          "accuracy": 0.6753246753246753
+     },
+     "['Pregnancies', 'BloodPressure', 'Insulin', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.6428571428571429
+     },
+     "['Pregnancies', 'BloodPressure', 'BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "ensemble",
+          "accuracy": 0.6883116883116883
+     },
+     "['Pregnancies', 'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "xgb",
+          "accuracy": 0.6753246753246753
+     },
+     "['Pregnancies', 'SkinThickness', 'Insulin', 'BMI', 'Age']": {
+          "best_model": "knn",
+          "accuracy": 0.6623376623376623
+     },
+     "['Pregnancies', 'SkinThickness', 'Insulin', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "nb",
+          "accuracy": 0.6298701298701299
+     },
+     "['Pregnancies', 'SkinThickness', 'BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.6818181818181818
+     },
+     "['Pregnancies', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "rf",
+          "accuracy": 0.6883116883116883
+     },
+     "['Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI']": {
+          "best_model": "ANN",
+          "accuracy": 0.7662337662337663
+     },
+     "['Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'DiabetesPedigreeFunction']": {
+          "best_model": "ANN",
+          "accuracy": 0.7662337662337663
+     },
+     "['Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'Age']": {
+          "best_model": "nb",
+          "accuracy": 0.7792207792207793
+     },
+     "['Glucose', 'BloodPressure', 'SkinThickness', 'BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "lr",
+          "accuracy": 0.7727272727272727
+     },
+     "['Glucose', 'BloodPressure', 'SkinThickness', 'BMI', 'Age']": {
+          "best_model": "nb",
+          "accuracy": 0.8051948051948052
+     },
+     "['Glucose', 'BloodPressure', 'SkinThickness', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "nb",
+          "accuracy": 0.7922077922077922
+     },
+     "['Glucose', 'BloodPressure', 'Insulin', 'BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "lr",
+          "accuracy": 0.7727272727272727
+     },
+     "['Glucose', 'BloodPressure', 'Insulin', 'BMI', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.7922077922077922
+     },
+     "['Glucose', 'BloodPressure', 'Insulin', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.7857142857142857
+     },
+     "['Glucose', 'BloodPressure', 'BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.7987012987012987
+     },
+     "['Glucose', 'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "lr",
+          "accuracy": 0.7727272727272727
+     },
+     "['Glucose', 'SkinThickness', 'Insulin', 'BMI', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.7857142857142857
+     },
+     "['Glucose', 'SkinThickness', 'Insulin', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.7532467532467533
+     },
+     "['Glucose', 'SkinThickness', 'BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "nb",
+          "accuracy": 0.7987012987012987
+     },
+     "['Glucose', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "nb",
+          "accuracy": 0.7922077922077922
+     },
+     "['BloodPressure', 'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "ANN",
+          "accuracy": 0.6493506493506493
+     },
+     "['BloodPressure', 'SkinThickness', 'Insulin', 'BMI', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.6623376623376623
+     },
+     "['BloodPressure', 'SkinThickness', 'Insulin', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.6168831168831169
+     },
+     "['BloodPressure', 'SkinThickness', 'BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "nb",
+          "accuracy": 0.6688311688311688
+     },
+     "['BloodPressure', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.6948051948051948
+     },
+     "['SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.6558441558441559
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI']": {
+          "best_model": "ensemble",
+          "accuracy": 0.7857142857142857
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'DiabetesPedigreeFunction']": {
+          "best_model": "lgbm",
+          "accuracy": 0.7922077922077922
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'Age']": {
+          "best_model": "ensemble",
+          "accuracy": 0.7727272727272727
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "lr",
+          "accuracy": 0.7792207792207793
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'BMI', 'Age']": {
+          "best_model": "cb",
+          "accuracy": 0.8051948051948052
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "nb",
+          "accuracy": 0.7857142857142857
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure', 'Insulin', 'BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "ANN",
+          "accuracy": 0.7987012987012987
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure', 'Insulin', 'BMI', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.8116883116883117
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure', 'Insulin', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.7792207792207793
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure', 'BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "nb",
+          "accuracy": 0.7987012987012987
+     },
+     "['Pregnancies', 'Glucose', 'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "ensemble",
+          "accuracy": 0.7727272727272727
+     },
+     "['Pregnancies', 'Glucose', 'SkinThickness', 'Insulin', 'BMI', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.7922077922077922
+     },
+     "['Pregnancies', 'Glucose', 'SkinThickness', 'Insulin', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.7792207792207793
+     },
+     "['Pregnancies', 'Glucose', 'SkinThickness', 'BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.7857142857142857
+     },
+     "['Pregnancies', 'Glucose', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "cb",
+          "accuracy": 0.7987012987012987
+     },
+     "['Pregnancies', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "ensemble",
+          "accuracy": 0.6558441558441559
+     },
+     "['Pregnancies', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI', 'Age']": {
+          "best_model": "knn",
+          "accuracy": 0.6688311688311688
+     },
+     "['Pregnancies', 'BloodPressure', 'SkinThickness', 'Insulin', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.6428571428571429
+     },
+     "['Pregnancies', 'BloodPressure', 'SkinThickness', 'BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.6753246753246753
+     },
+     "['Pregnancies', 'BloodPressure', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "rf",
+          "accuracy": 0.7012987012987013
+     },
+     "['Pregnancies', 'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.6753246753246753
+     },
+     "['Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "lr",
+          "accuracy": 0.7727272727272727
+     },
+     "['Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.7792207792207793
+     },
+     "['Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.7662337662337663
+     },
+     "['Glucose', 'BloodPressure', 'SkinThickness', 'BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "nb",
+          "accuracy": 0.7922077922077922
+     },
+     "['Glucose', 'BloodPressure', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "nb",
+          "accuracy": 0.7922077922077922
+     },
+     "['Glucose', 'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "cb",
+          "accuracy": 0.7792207792207793
+     },
+     "['BloodPressure', 'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "ANN",
+          "accuracy": 0.6753246753246753
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction']": {
+          "best_model": "rf",
+          "accuracy": 0.7987012987012987
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.7987012987012987
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "ensemble",
+          "accuracy": 0.7662337662337663
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "ensemble",
+          "accuracy": 0.7922077922077922
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.8051948051948052
+     },
+     "['Pregnancies', 'Glucose', 'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "rf",
+          "accuracy": 0.7922077922077922
+     },
+     "['Pregnancies', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "knn",
+          "accuracy": 0.6623376623376623
+     },
+     "['Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "nb",
+          "accuracy": 0.7922077922077922
+     },
+     "['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age']": {
+          "best_model": "lr",
+          "accuracy": 0.8051948051948052
+     }
+}
