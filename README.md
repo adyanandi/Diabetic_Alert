@@ -14,7 +14,9 @@ For users:
 
 For admins:
 
-![Diabetic Alert Demo](https://imgur.com/K0wNe35.gif) 
+![Diabetic Alert Demo](https://i.imgur.com/Lrh15ms.gif[/img)  
+
+
 
 ## Features
 
